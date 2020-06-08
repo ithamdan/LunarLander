@@ -1,0 +1,700 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "force" : [
+                                            0,
+                                            0.69444489479064941,
+                                            0
+                                          ],
+                                          "target" : [
+                                            "A0661D7E-DB1A-42B9-AF00-2BB5775D493D"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "physics"
+                                        }
+                                      },
+                                      "identifier" : "862DB8F6-9F49-48C7-910D-42BD575437DC",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "target" : [
+                                            "A0661D7E-DB1A-42B9-AF00-2BB5775D493D"
+                                          ],
+                                          "userIdentifier" : "Medium force"
+                                        },
+                                        "name" : {
+                                          "type" : "custom"
+                                        }
+                                      },
+                                      "identifier" : "2261FB01-87F7-466A-A3AC-DB79D17917DE",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "E26B4112-2C26-4E23-B17F-881F43353253",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "523C346D-9F02-435C-838D-A9AA429051A4",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Medium force",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "AE00C8AC-658C-423C-B527-EE6E6990C89B"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "38FE3576-1824-477C-A96E-D4E40DBC59D6",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "force" : [
+                                            0,
+                                            5,
+                                            0
+                                          ],
+                                          "target" : [
+                                            "A0661D7E-DB1A-42B9-AF00-2BB5775D493D"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "physics"
+                                        }
+                                      },
+                                      "identifier" : "CE1CD230-0092-4D77-A0FF-8D7302716D4C",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "target" : [
+                                            "A0661D7E-DB1A-42B9-AF00-2BB5775D493D"
+                                          ],
+                                          "userIdentifier" : "Massive force"
+                                        },
+                                        "name" : {
+                                          "type" : "custom"
+                                        }
+                                      },
+                                      "identifier" : "56FEED22-AA5F-4F1C-865F-1B1760CAC57A",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "97D28E90-24D8-44D6-91A3-7DA7BB7A9289",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.21568627655506134,
+                        0.72549021244049072,
+                        0.80000001192092896,
+                        1
+                      ],
+                      "identifier" : "617E3FE5-41C7-47CC-B4E3-25E319C7A760",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Massive force",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "AF8C7047-F221-4B66-855F-BB5483D6FF32"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "2A986D38-A6C1-47E4-8864-AD40FA2E7F87",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "force" : [
+                                            0,
+                                            1.5794041156768799,
+                                            0
+                                          ],
+                                          "target" : [
+                                            "A0661D7E-DB1A-42B9-AF00-2BB5775D493D"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "physics"
+                                        }
+                                      },
+                                      "identifier" : "2C417840-A9D8-4FEC-8314-1AE9DD8001F8",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "121FC104-37A5-434A-B4C3-2E20FA0C1727",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.49019607901573181,
+                        0.7450980544090271,
+                        0.94901961088180542,
+                        1
+                      ],
+                      "identifier" : "710A8161-813C-4DFD-80D8-9A89170E8995",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Outside Tap",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "userIdentifier" : "Outside Tap"
+                                },
+                                "name" : "custom"
+                              },
+                              "identifier" : "F6BCA569-EA94-4312-B2A6-7C0955EF1472",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
+              ],
+              "gravity" : [
+                0,
+                -1,
+                0
+              ],
+              "identifier" : "C37FACE6-FD3B-499B-BE41-23965C8522BA",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "3B4CEF2C-27A6-4A32-857A-B948ACB5BA54" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "bevelRadius",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.027881572962233682
+                          }
+                        ],
+                        [
+                          "diameter",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.23095589468292432
+                          }
+                        ],
+                        [
+                          "height",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.20608480058969536
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "clearCoatPaint"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.85000002384185791,
+                              0.17000000178813934,
+                              0.85000002384185791,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "cylinder"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "AE00C8AC-658C-423C-B527-EE6E6990C89B"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        -0.062270879745483398,
+                        0,
+                        0.15104913711547852,
+                        1
+                      ]
+                    }
+                  },
+                  "9D478E8F-C48D-43E4-859D-0374E81DCADE" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "bevelRadius",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.027881572962233682
+                          }
+                        ],
+                        [
+                          "diameter",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.23095589468292432
+                          }
+                        ],
+                        [
+                          "height",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.20608480058969536
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "clearCoatPaint"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.20000000298023224,
+                              1,
+                              0.20000000298023224,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "cylinder"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "AF8C7047-F221-4B66-855F-BB5483D6FF32"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.96592575311660767,
+                        0,
+                        -0.25881874561309814,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0.25881874561309814,
+                        0,
+                        0.96592575311660767,
+                        0,
+                        0.092807650566101074,
+                        0.036793351173400879,
+                        -0.05566522479057312,
+                        1
+                      ]
+                    }
+                  },
+                  "23A0DAD4-0A2E-4EC2-93A7-0DE79B3BFF5A" : null,
+                  "Cube" : null,
+                  "D0135D6C-C314-4756-9944-501D34C65CA6" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Rocket Toy"
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "plastic"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.85000002384185791,
+                              0.50999999046325684,
+                              0.17000000178813934,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Iconic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "iconicItem" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "56511F17-77D0-4F99-9B2E-9ABFCE3F2C5A"
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "E8F8944C-1A26-426A-92BE-673B64A28929"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.ToyRocket.0ff100d1-1ee4-4d77-9e16-b21d1a031f5e",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "A0661D7E-DB1A-42B9-AF00-2BB5775D493D"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "Rocket ship"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-material",
+                          {
+                            "typeName" : "RigidBodyMaterial",
+                            "value" : {
+                              "builtIn" : "concrete",
+                              "overrides" : {
+
+                              }
+                            }
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.50433444976806641,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.50433444976806641,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.50433444976806641,
+                        0,
+                        0,
+                        1,
+                        0,
+                        1
+                      ]
+                    }
+                  }
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Scene",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.98570573329925537,
+                  0,
+                  0.16847576200962067,
+                  0,
+                  0.13568687438964844,
+                  0.59275996685028076,
+                  -0.79386687278747559,
+                  0,
+                  -0.09986569732427597,
+                  0.80537903308868408,
+                  0.58428692817687988,
+                  0,
+                  0.0046442151069641113,
+                  1.8930516242980957,
+                  0.8621751070022583,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

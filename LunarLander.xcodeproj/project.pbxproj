@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		85B0B484248E47DB006EEDE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0B483248E47DB006EEDE8 /* AppDelegate.swift */; };
 		85B0B486248E47DB006EEDE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0B485248E47DB006EEDE8 /* ViewController.swift */; };
-		85B0B488248E47DB006EEDE8 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 85B0B487248E47DB006EEDE8 /* Experience.rcproject */; };
 		85B0B48B248E47DB006EEDE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B0B489248E47DB006EEDE8 /* Main.storyboard */; };
 		85B0B48D248E47DC006EEDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B0B48C248E47DC006EEDE8 /* Assets.xcassets */; };
 		85B0B490248E47DC006EEDE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B0B48E248E47DC006EEDE8 /* LaunchScreen.storyboard */; };
 		85B0B49B248E47DC006EEDE8 /* LunarLanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0B49A248E47DC006EEDE8 /* LunarLanderTests.swift */; };
+		85B0B4A6248E483B006EEDE8 /* LunarLander.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 85B0B4A5248E483B006EEDE8 /* LunarLander.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 		85B0B480248E47DB006EEDE8 /* LunarLander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunarLander.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B0B483248E47DB006EEDE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85B0B485248E47DB006EEDE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		85B0B487248E47DB006EEDE8 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		85B0B48A248E47DB006EEDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85B0B48C248E47DC006EEDE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85B0B48F248E47DC006EEDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		85B0B496248E47DC006EEDE8 /* LunarLanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunarLanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B0B49A248E47DC006EEDE8 /* LunarLanderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarLanderTests.swift; sourceTree = "<group>"; };
 		85B0B49C248E47DC006EEDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B0B4A5248E483B006EEDE8 /* LunarLander.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = LunarLander.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			children = (
 				85B0B483248E47DB006EEDE8 /* AppDelegate.swift */,
 				85B0B485248E47DB006EEDE8 /* ViewController.swift */,
-				85B0B487248E47DB006EEDE8 /* Experience.rcproject */,
+				85B0B4A5248E483B006EEDE8 /* LunarLander.rcproject */,
 				85B0B489248E47DB006EEDE8 /* Main.storyboard */,
 				85B0B48C248E47DC006EEDE8 /* Assets.xcassets */,
 				85B0B48E248E47DC006EEDE8 /* LaunchScreen.storyboard */,
@@ -202,7 +202,7 @@
 			files = (
 				85B0B486248E47DB006EEDE8 /* ViewController.swift in Sources */,
 				85B0B484248E47DB006EEDE8 /* AppDelegate.swift in Sources */,
-				85B0B488248E47DB006EEDE8 /* Experience.rcproject in Sources */,
+				85B0B4A6248E483B006EEDE8 /* LunarLander.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R876ALJQT6;
 				INFOPLIST_FILE = LunarLander/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R876ALJQT6;
 				INFOPLIST_FILE = LunarLander/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
