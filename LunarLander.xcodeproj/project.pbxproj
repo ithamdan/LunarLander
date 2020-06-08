@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85B0B484248E47DB006EEDE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0B483248E47DB006EEDE8 /* AppDelegate.swift */; };
+		85B0B486248E47DB006EEDE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0B485248E47DB006EEDE8 /* ViewController.swift */; };
+		85B0B488248E47DB006EEDE8 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 85B0B487248E47DB006EEDE8 /* Experience.rcproject */; };
+		85B0B48B248E47DB006EEDE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B0B489248E47DB006EEDE8 /* Main.storyboard */; };
+		85B0B48D248E47DC006EEDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B0B48C248E47DC006EEDE8 /* Assets.xcassets */; };
+		85B0B490248E47DC006EEDE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B0B48E248E47DC006EEDE8 /* LaunchScreen.storyboard */; };
+		85B0B49B248E47DC006EEDE8 /* LunarLanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0B49A248E47DC006EEDE8 /* LunarLanderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85B0B497248E47DC006EEDE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B0B478248E47DB006EEDE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B0B47F248E47DB006EEDE8;
+			remoteInfo = LunarLander;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85B0B480248E47DB006EEDE8 /* LunarLander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunarLander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B0B483248E47DB006EEDE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85B0B485248E47DB006EEDE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85B0B487248E47DB006EEDE8 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		85B0B48A248E47DB006EEDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85B0B48C248E47DC006EEDE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85B0B48F248E47DC006EEDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85B0B491248E47DC006EEDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B0B496248E47DC006EEDE8 /* LunarLanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunarLanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B0B49A248E47DC006EEDE8 /* LunarLanderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarLanderTests.swift; sourceTree = "<group>"; };
+		85B0B49C248E47DC006EEDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85B0B47D248E47DB006EEDE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B0B493248E47DC006EEDE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85B0B477248E47DB006EEDE8 = {
+			isa = PBXGroup;
+			children = (
+				85B0B482248E47DB006EEDE8 /* LunarLander */,
+				85B0B499248E47DC006EEDE8 /* LunarLanderTests */,
+				85B0B481248E47DB006EEDE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85B0B481248E47DB006EEDE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85B0B480248E47DB006EEDE8 /* LunarLander.app */,
+				85B0B496248E47DC006EEDE8 /* LunarLanderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85B0B482248E47DB006EEDE8 /* LunarLander */ = {
+			isa = PBXGroup;
+			children = (
+				85B0B483248E47DB006EEDE8 /* AppDelegate.swift */,
+				85B0B485248E47DB006EEDE8 /* ViewController.swift */,
+				85B0B487248E47DB006EEDE8 /* Experience.rcproject */,
+				85B0B489248E47DB006EEDE8 /* Main.storyboard */,
+				85B0B48C248E47DC006EEDE8 /* Assets.xcassets */,
+				85B0B48E248E47DC006EEDE8 /* LaunchScreen.storyboard */,
+				85B0B491248E47DC006EEDE8 /* Info.plist */,
+			);
+			path = LunarLander;
+			sourceTree = "<group>";
+		};
+		85B0B499248E47DC006EEDE8 /* LunarLanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				85B0B49A248E47DC006EEDE8 /* LunarLanderTests.swift */,
+				85B0B49C248E47DC006EEDE8 /* Info.plist */,
+			);
+			path = LunarLanderTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85B0B47F248E47DB006EEDE8 /* LunarLander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B0B49F248E47DC006EEDE8 /* Build configuration list for PBXNativeTarget "LunarLander" */;
+			buildPhases = (
+				85B0B47C248E47DB006EEDE8 /* Sources */,
+				85B0B47D248E47DB006EEDE8 /* Frameworks */,
+				85B0B47E248E47DB006EEDE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunarLander;
+			productName = LunarLander;
+			productReference = 85B0B480248E47DB006EEDE8 /* LunarLander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85B0B495248E47DC006EEDE8 /* LunarLanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B0B4A2248E47DC006EEDE8 /* Build configuration list for PBXNativeTarget "LunarLanderTests" */;
+			buildPhases = (
+				85B0B492248E47DC006EEDE8 /* Sources */,
+				85B0B493248E47DC006EEDE8 /* Frameworks */,
+				85B0B494248E47DC006EEDE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85B0B498248E47DC006EEDE8 /* PBXTargetDependency */,
+			);
+			name = LunarLanderTests;
+			productName = LunarLanderTests;
+			productReference = 85B0B496248E47DC006EEDE8 /* LunarLanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85B0B478248E47DB006EEDE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "The Code Hub";
+				TargetAttributes = {
+					85B0B47F248E47DB006EEDE8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					85B0B495248E47DC006EEDE8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 85B0B47F248E47DB006EEDE8;
+					};
+				};
+			};
+			buildConfigurationList = 85B0B47B248E47DB006EEDE8 /* Build configuration list for PBXProject "LunarLander" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85B0B477248E47DB006EEDE8;
+			productRefGroup = 85B0B481248E47DB006EEDE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85B0B47F248E47DB006EEDE8 /* LunarLander */,
+				85B0B495248E47DC006EEDE8 /* LunarLanderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85B0B47E248E47DB006EEDE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B0B490248E47DC006EEDE8 /* LaunchScreen.storyboard in Resources */,
+				85B0B48D248E47DC006EEDE8 /* Assets.xcassets in Resources */,
+				85B0B48B248E47DB006EEDE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B0B494248E47DC006EEDE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85B0B47C248E47DB006EEDE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B0B486248E47DB006EEDE8 /* ViewController.swift in Sources */,
+				85B0B484248E47DB006EEDE8 /* AppDelegate.swift in Sources */,
+				85B0B488248E47DB006EEDE8 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B0B492248E47DC006EEDE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B0B49B248E47DC006EEDE8 /* LunarLanderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85B0B498248E47DC006EEDE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B0B47F248E47DB006EEDE8 /* LunarLander */;
+			targetProxy = 85B0B497248E47DC006EEDE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85B0B489248E47DB006EEDE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B0B48A248E47DB006EEDE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85B0B48E248E47DC006EEDE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B0B48F248E47DC006EEDE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85B0B49D248E47DC006EEDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85B0B49E248E47DC006EEDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85B0B4A0248E47DC006EEDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R876ALJQT6;
+				INFOPLIST_FILE = LunarLander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ie.thecodehub.LunarLander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85B0B4A1248E47DC006EEDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R876ALJQT6;
+				INFOPLIST_FILE = LunarLander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ie.thecodehub.LunarLander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85B0B4A3248E47DC006EEDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R876ALJQT6;
+				INFOPLIST_FILE = LunarLanderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ie.thecodehub.LunarLanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunarLander.app/LunarLander";
+			};
+			name = Debug;
+		};
+		85B0B4A4248E47DC006EEDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R876ALJQT6;
+				INFOPLIST_FILE = LunarLanderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ie.thecodehub.LunarLanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunarLander.app/LunarLander";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85B0B47B248E47DB006EEDE8 /* Build configuration list for PBXProject "LunarLander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B0B49D248E47DC006EEDE8 /* Debug */,
+				85B0B49E248E47DC006EEDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B0B49F248E47DC006EEDE8 /* Build configuration list for PBXNativeTarget "LunarLander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B0B4A0248E47DC006EEDE8 /* Debug */,
+				85B0B4A1248E47DC006EEDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B0B4A2248E47DC006EEDE8 /* Build configuration list for PBXNativeTarget "LunarLanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B0B4A3248E47DC006EEDE8 /* Debug */,
+				85B0B4A4248E47DC006EEDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85B0B478248E47DB006EEDE8 /* Project object */;
+}
