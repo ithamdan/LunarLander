@@ -17,25 +17,20 @@ class ViewController: UIViewController {
 
     var fuelLevel = 100
     
-    var lunarAnchor: LunarLander.Scene?
+    var lunarAnchor: LunarLander.StartScene?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Load our AR anchor from the Reality Composer project
-        let lunarAnchor = try! LunarLander.loadScene()
+        let lunarAnchor = try! LunarLander.loadStartScene()
         
         /// Configure how we behave when certain actions are triggered
         // Configure how we behave when the medium force action is triggered
         lunarAnchor.actions.mediumForce.onAction = { _ in
             self.didApplyMediumForce()
         }
-        
-        // Configure how we behave when the massive force action is triggered
-        lunarAnchor.actions.massiveForce.onAction = { _ in
-            self.didApplyMassiveForce()
-        }
-        
+                
         // Add the lunar anchor to the scene
         arView.scene.anchors.append(lunarAnchor)
         
@@ -85,12 +80,10 @@ class ViewController: UIViewController {
             self.fuelLevel -= usedFuel
             // Update our button...
             self.fuelLabel.text = "Fuel: \(self.fuelLevel)"
-            //self.fuelLabel.sizeToFit()
         } else {
             self.fuelLabel.text = "We're out of fuel!"
             self.fuelLabel.textColor = .systemRed
         }
     }
-
 }
 

@@ -49,6 +49,7 @@
                     </view>
                     <connections>
                         <outlet property="arView" destination="Ug6-9k-TB1" id="bc9-C9-zK7"/>
+                        <outlet property="boostButton" destination="lDs-VU-DjE" id="scS-TK-Y1C"/>
                         <outlet property="fuelLabel" destination="lWY-Zg-SV8" id="sEl-MX-3MC"/>
                     </connections>
                 </viewController>
