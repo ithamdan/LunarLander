@@ -17,7 +17,9 @@ class ViewController: UIViewController {
 
     var fuelLevel = 100
     
-    var lunarAnchor: LunarLander.StartScene?
+    var startScene: LunarLander.StartScene?
+    var level1Scene: LunarLander.Level1Scene?
+    var level2Scene: LunarLander.Level2Scene?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,14 +29,24 @@ class ViewController: UIViewController {
         
         /// Configure how we behave when certain actions are triggered
         // Configure how we behave when the medium force action is triggered
-        lunarAnchor.actions.mediumForce.onAction = { _ in
+        lunarAnchor.actions.startGame.onAction = { entity in
             self.didApplyMediumForce()
+            if let box = self.startScene?.findEntity(named: "Massive boost button") {
+                print(box)
+                let mediumBoostAction = self.startScene?.actions.allActions.first {
+                    $0.identifier.hasPrefix("Medium")
+                }
+                mediumBoostAction?.onAction = { _ in 
+                    self.didApplyMediumForce()
+                }
+            }
+
         }
                 
         // Add the lunar anchor to the scene
         arView.scene.anchors.append(lunarAnchor)
         
-        self.lunarAnchor = lunarAnchor
+        self.startScene = lunarAnchor
     }
     
     @IBAction func giveBoost() {
@@ -46,7 +58,7 @@ class ViewController: UIViewController {
         /// However, in this case, what we want is to control the velocity of
         /// our rocket... and maybe we want to be able to vary that, depending how long or
         /// how many times someone presses the button...
-        if let rocketship = self.lunarAnchor?.rocketShip as? Entity & HasPhysics {
+        if let rocketship = self.startScene?.rocketShip as? Entity & HasPhysics {
             // We need to change the physics mode from the dynamic mode
             // we set in the reality composer file to kinematic, to let RealityKit
             // we intend to drive the physics of this body
